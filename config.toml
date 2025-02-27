@@ -1,0 +1,24 @@
+[camera]  # jeśli rozdzielczość kamery jest mniejsza niż ekranu, obraz z kamery zostatnie wyśrodkowany
+width = 1920
+height = 1080
+#height = 1200
+fps = 30
+
+[filters]
+1 = { enabled = true, duration = 60 }
+2 = { enabled = true, duration = 60 }
+3 = { enabled = false, duration = 10 }
+4 = { enabled = false, duration = 10 }
+5 = { enabled = false, duration = 10 }
+6 = { enabled = true, duration = 60 }
+7 = { enabled = false, duration = 60 }
+8 = { enabled = false, duration = 10 }
+9 = { enabled = false, duration = 10 }
+
+[transition]
+duration = 0.3  # czas trwania przejścia w sekundach
+
+[mask] #obraz rozciągany zawsze do rozdzielczości ekranu i nakładany jako ostatnia warstwa (overlay)
+enabled = false
+path = "mask_1920x1080.png"
+#path = "mask_1920x1200.png"
