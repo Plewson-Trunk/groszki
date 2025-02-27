@@ -34,3 +34,4 @@ pytest_cache/
 Lib/
 dist/
 build/
+pyvenv.cfg
