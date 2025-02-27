@@ -30,3 +30,7 @@ pytest_cache/
 .idea/
 *.swp
 *~
+
+Lib/
+dist/
+build/
